@@ -1,0 +1,166 @@
+.App {
+  
+  background-color: #0e120e;
+  height: 100vh;
+
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Nav{
+
+  font-family: 'Inter', sans-serif;
+
+  display : flex;
+  flex-direction:row;
+  padding:10px;
+
+  background-color:#f3ab38;
+  border-radius:50px;
+  margin:40px;
+  justify-content:space-between;
+   padding-left:20px;
+    padding-right:20px;
+
+
+
+
+}
+
+.Nav-items{
+
+  list-style-type: none;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+
+  color:#0e120e;
+
+  font-size:15px;
+
+
+}
+
+.Title{
+
+  font-size:30px;
+  padding-left:10px;
+  font-family: 'Dancing Script', cursive;
+  font-weight:700;
+
+  color:#0e120e;
+  letter-spacing: 1px;
+}
+
+.Nav-items-click{
+  padding-left:15px;
+   font-weight:500;
+}
+
+button{
+font-family: 'Inter', sans-serif;
+  background-color:#f3ab38;
+  border-radius:30px;
+  margin-left:20px;
+  padding:10px;
+  font-weight:bold;
+
+}
+
+.bodytext{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-size:65px;
+  font-weight:600;
+
+  max-width:900px;
+
+  padding-left:30px;
+
+}
+
+.soiltext{
+
+  color:white;
+  font-family: 'Dancing Script', cursive;
+  font-weight:1000;
+  font-size:75px;
+
+  max-width:900px;
+  color:#f3ab38;
+  letter-spacing: 5px;
+
+
+
+}
+
+
+.bodytextparent{
+  display:flex;
+  flex-direction:row;
+  padding:30px;
+  
+}
+
+.bodytextparentn{
+  background-color: #f9eee0 ;
+}
+
+.bodytextn{
+  color:#0e120e;
+  font-family: 'Poppins', sans-serif;
+  font-size:50px;
+  font-weight:700;
+  min-height:400px;
+  padding-left:50px;
+  padding-top:30px;
+}
+
+.button-create{
+  background-color: #0e120e;
+  color:white;
+  min-width:80px;
+  height:40px;
+     font-weight:500;
+
+}
+
+.button-login{
+  min-width:80px;
+  height:40px;
+    font-weight:500;
+
+}
+
+.paragtext{
+  color:#d0d3d0;
+  font-family: 'Poppins', sans-serif;
+  font-size:16px;
+  padding-left:30px;
+}
+
+.button-discover{
+  padding-left:15px;
+   padding-right:15px;
+   margin-top:20px;
+}
+
