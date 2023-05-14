@@ -1,6 +1,7 @@
 .App {
   
-  background-color: #0e120e;
+  background-color: #1d1a36;
+
   height: 100vh;
 
 }
@@ -34,7 +35,8 @@
   flex-direction:row;
   padding:10px;
 
-  background-color:#f3ab38;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 84%, rgba(252,176,69,1) 100%);
   border-radius:50px;
   margin:40px;
   justify-content:space-between;
@@ -53,9 +55,12 @@
   flex-direction:row;
   justify-content:space-evenly;
 
-  color:#0e120e;
+  color:#fdfdfd;
 
-  font-size:15px;
+  font-size:14px;
+  text-transform:uppercase;
+  font-weight:100;
+
 
 
 }
@@ -67,7 +72,7 @@
   font-family: 'Dancing Script', cursive;
   font-weight:700;
 
-  color:#0e120e;
+  color:#fdfdfd;
   letter-spacing: 1px;
 }
 
@@ -78,11 +83,12 @@
 
 button{
 font-family: 'Inter', sans-serif;
-  background-color:#f3ab38;
-  border-radius:30px;
+  background-color: #1d1a36;
+  border-radius:10px;
   margin-left:20px;
   padding:10px;
   font-weight:bold;
+  color:white;
 
 }
 
@@ -95,6 +101,7 @@ font-family: 'Inter', sans-serif;
   max-width:900px;
 
   padding-left:30px;
+  color:#d7d7db;
 
 }
 
@@ -106,7 +113,7 @@ font-family: 'Inter', sans-serif;
   font-size:75px;
 
   max-width:900px;
-  color:#f3ab38;
+  color:#d7d7db;
   letter-spacing: 5px;
 
 
@@ -118,17 +125,24 @@ font-family: 'Inter', sans-serif;
   display:flex;
   flex-direction:row;
   padding:30px;
+  padding-bottom:0px;
+  height:100vh;
   
 }
 
 .bodytextparentn{
-  background-color: #f9eee0 ;
+  background-color: white ;
+  margin-left:75px;
+  margin-right:75px;
+  padding:20px;
+  margin-top:-100px;
+  border-radius:20px;
 }
 
 .bodytextn{
   color:#0e120e;
   font-family: 'Poppins', sans-serif;
-  font-size:50px;
+  font-size:45px;
   font-weight:700;
   min-height:400px;
   padding-left:50px;
@@ -136,18 +150,21 @@ font-family: 'Inter', sans-serif;
 }
 
 .button-create{
-  background-color: #0e120e;
+background-color: black;
   color:white;
   min-width:80px;
   height:40px;
-     font-weight:500;
+     font-weight:300;
+     border-radius:20px;
 
 }
 
 .button-login{
+  background-color: black;
   min-width:80px;
   height:40px;
-    font-weight:500;
+    font-weight:300;
+    border-radius:20px;
 
 }
 
@@ -162,5 +179,145 @@ font-family: 'Inter', sans-serif;
   padding-left:15px;
    padding-right:15px;
    margin-top:20px;
+   background-color:#f4fa9b;
+   color:#1d1a36;
+}
+
+.table{
+
+  padding:10px;
+  margin-right:20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.listingtxt{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+.diricon{
+
+  padding-left:150px;
+}
+
+.tabtab{
+  padding:0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.cardparent{
+  padding:30px;
+  min-height:300px;
+/*  background-color:#37345f;*/
+  border-radius:10px;
+  margin:20px;
+
+}
+
+.cardparent{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.section{
+
+  background-color:white;
+  min-height:300px;
+  display:flex;
+  flex-direction:row;
+}
+
+.cardparentn{
+ 
+ //border: solid 0.5px white;
+ padding:25px;
+ transition: 250dms;
+ margin-bottom:50px;
+ animation-delay: 2s;
+
+}
+
+.cardparentn:hover{
+ 
+ border: solid 0.5px green;
+ background-color:#dff3e4;
+
+
+}
+
+.Cardtext1{
+
+color:white;
+font-size:25px;
+}
+
+.paragtextcard{
+  font-size:16px;
+  font-weight:500;
+  color:grey;
+}
+
+.sectiontext{
+  background-color:#bca0bc;
+  width:100%;
+  font-family: 'Inter', sans-serif;
+  font-size:40px;
+  font-weight:700;
+  padding:0px;
+  color:#1d1a36;;
+}
+
+.listhead{
+  display:flex;
+  flex-direction:row;
+
+  background-color:#dff3e4;
+    border-radius:50px;
+    margin-bottom:20px;
+}
+
+
+.listheadtext{
+  font-family: 'Inter', sans-serif;
+  font-size:20px;
+  font-weight:500;
+  padding-left:20px;
+
+}
+
+.contact{
+
+
+  min-height:300px;
+  display:flex;
+  flex-direction:row;
+  background-image: url("Components/contact.jpg");
+  background-color: #cccccc;
+  padding:0px;
+}
+
+.contacttext{
+
+  color:white;
+  padding:40px;
+}
+
+
+.formarea{
+  background-color: white;
+  min-width:400px;
+  border-radius: 10px;
+
+}
+
+.text1{
+
+  color:black;
+  font-size:16px;
+  padding:20px;
 }
 
